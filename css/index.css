@@ -95,4 +95,47 @@ header nav {
   justify-content: center;
 }
 
+.form-section {
+  display: flex;
+}
+.form-section h1 {
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.form-section .form-section_form {
+  background-color: #574b63;
+  padding: 105px;
+}
+.form-section .form-section_form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+}
+.form-section .form-section_form form input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+.form-section .form-section_form form input::placeholder {
+  color: #909090;
+}
+.form-section .form-section_form form span {
+  padding-left: 25px;
+  color: #909090;
+}
+.form-section .form-section_form form button {
+  padding: 15px 55px;
+  background-color: #fcfcfc;
+  color: #5d076e;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=index.css.map */
