@@ -1,0 +1,19 @@
+{
+  "name": "htmlpracticetem",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "sass --watch sass/index.scss:css/index.css",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "author": "Temchenko",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@compodoc/live-server": "^1.2.3",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.78.0"
+  }
+}
