@@ -134,4 +134,30 @@ header {
       }
     }
   }
+  .form-section_image {
+    img {
+      height: 100%;
+    }
+  }
+}
+footer {
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  section {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px 0;
+    p {
+      color: #717171;
+      font-size: 14px;
+    }
+    span {
+      color: #717171;
+      font-size: 18px;
+    }
+  }
 }
